@@ -8,7 +8,7 @@ Clone, and unpack i3-setmod if necessary. `cd` into i3-setmod and run build with
 
 ## Usage
 
-Run the command `setmodwin` to change the mod key to the WIN key, or `setmodalt` to change the mod key to alt.
+Run the command `setmodwin` to change the mod key to the WIN key, or `setmodalt` to change the mod key to ALT.
 
 ## Compatibility
 
