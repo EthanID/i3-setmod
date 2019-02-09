@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Replace instance of Mod4 (WIN) with Mod1 (ALT) in i3 config file
+sed -i -e 's/Mod4/Mod1/g' $HOME/.config/i3/config
+
+# Reload i3 config in place
+i3-msg restart
+
+# Terminal feedback
+echo Modifier key changed to ALT

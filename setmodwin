@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Replace instance of Mod1 (ALT) with Mod4 (WIN) in i3 config file
+sed -i -e 's/Mod1/Mod4/g' $HOME/.config/i3/config
+
+# Reload i3 config in place
+i3-msg restart
+
+# Terminal feedback
+echo Modifier key changed to WIN
