@@ -1,4 +1,6 @@
 #!/bin/sh
 
+echo "Installation started. Moving scripts to /usr/bin."
 cp ./setmodwin /usr/bin
 cp ./setmodalt /usr/bin
+echo "Scripts moved. Installation complete."
