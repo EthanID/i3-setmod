@@ -4,7 +4,7 @@ i3-setmod is a set of commands to allow easy switching of the mod key in the win
 
 ## Installation
 
-Clone, and unpack i3-setmod if necessary. `cd` into i3-setmod and run build with `sudo ./build`.
+Clone, and unpack i3-setmod if necessary. `cd` into i3-setmod and run build with `sudo make install`. Likewise i3-setmod can be uninstalled with `sudo make uninstall`.
 
 ## Usage
 
