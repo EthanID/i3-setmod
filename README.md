@@ -8,8 +8,10 @@ Clone, and unpack i3-setmod if necessary. `cd` into i3-setmod and run build with
 
 ## Usage
 
-Run the command `setmodwin` to change the mod key to the WIN key, or `setmodalt` to change the mod key to ALT.
++ `setmodwin` to set the mod key to the windows key
++ `setmodalt` to set the mod key to the alt key
++ `setmodtoggle` to toggle between alt / windows key
 
 ## Compatibility
 
-i3-setmod is compatible with the latest version of i3 and i3-gaps as of 02-09-2019.
+i3-setmod is confirmed to be compatible with i3 / i3-gaps 4.16.1-1
