@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Check if mod is Mod1 is set in i3 config file
+if [[ -n $(grep 'set $mod Mod1' $HOME/.config/i3/config) ]]; then
+    # Replace instance of Mod1 (ALT) with Mod4 (WIN) in i3 config file
+    sed -i -e 's/Mod1/Mod4/g' $HOME/.config/i3/config
+
+    # Reload i3 config in place
+    i3-msg restart
+
+    # Terminal feedback
+    echo Modifier key changed to WIN
+else
+    # Replace instance of Mod4 (WIN) with Mod1 (ALT) in i3 config file
+    sed -i -e 's/Mod4/Mod1/g' $HOME/.config/i3/config
+
+    # Reload i3 config in place
+    i3-msg restart
+
+    # Terminal feedback
+    echo Modifier key changed to ALT
+fi
